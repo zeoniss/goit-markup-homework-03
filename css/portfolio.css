@@ -1,0 +1,81 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --rgba-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* Button-list */
+.button-list {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px solid var(--primary-white-color);
+}
+
+.button-list:hover,
+.button-list:focus {
+  color: white;
+  background-color: var(--accent-color);
+}
+/* List-title */
+.works .title-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.works .paragraph-list {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+p {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.button-list {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button-list:hover,
+.button-list:focus {
+  color: white;
+  background-color: var(--primary-text-color);
+}
+.address .street {
+  color: rgba(255, 255, 255, 1);
+}
+.address .street:hover,
+.address .street:focus {
+  color: var(--accent-color);
+}
+.address .connect {
+  color: var(--rgba-color);
+}
+.address .connect:hover,
+.address .connect:focus {
+  color: var(--accent-color);
+} */
